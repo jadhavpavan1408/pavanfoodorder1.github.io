@@ -1,0 +1,37 @@
+/* Navbar */
+#NavbarItems a {
+  font-size: 50px;
+  font-variant: small-caps;
+  color: darkorange;
+  font-family: Times New Roman;
+}
+@media (max-width: 991px) {
+  #NavbarItems a {
+    display: none;
+  }
+}
+/*Accordion */
+.accordion-header button {
+  font-weight: bold;
+  font-size: 20px;
+}
+/* Accordion Meal */
+#MealInformation img {
+  border-radius: 40px 40px 0px 0px;
+}
+/* Accordion Breakfast */
+#BreakfastInformation .row .card {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+@media (min-width: 992px) {
+  #BreakfastInformation .row .card {
+    box-shadow: 0px 0px 10px 5px salmon;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  #BreakfastInformation .row .card img {
+    border-radius: 25px 25px 0px 0px;
+  }
+}
+/* modal */
